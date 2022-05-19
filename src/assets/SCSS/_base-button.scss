@@ -1,0 +1,20 @@
+@import "../SCSS/_colors";
+
+.universal-btn {
+    max-width: 317px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: $background-color;
+    border: none;
+    overflow: auto;
+    outline: none;
+    border-radius: 4px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    color: $color-second;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.9;
+    }
+}

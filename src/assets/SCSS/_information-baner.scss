@@ -1,0 +1,28 @@
+.modal {
+    max-width: 400px;
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+
+    &--success {
+        background-color: $color-success;
+        letter-spacing: 3px;
+    }
+
+    &--error-warning {
+        background-color: $color-error;
+        letter-spacing: 3px;
+
+        @media (width: 320px) {
+            font-size: 0.7rem;
+        }
+    }
+
+    &__content {
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $color-second;
+    }
+}

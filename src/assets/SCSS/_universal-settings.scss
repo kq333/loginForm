@@ -1,0 +1,45 @@
+@import "../SCSS/_colors";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 14px;
+    color: $text-color;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+select,
+input {
+    display: block;
+    padding: 10px;
+    max-width: 317px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    overflow: auto;
+    outline: none;
+    background-color: $color-second;
+    color: $text-color;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+    border-radius: 8px;
+    padding: 5px;
+    max-width: 317px;
+    width: 100%;
+    resize: none;
+    color: $text-color;
+}
