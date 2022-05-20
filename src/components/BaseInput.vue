@@ -1,4 +1,5 @@
 <template>
+<div>
   <label :for="labelName">{{ labelName }} </label>
   <input
     type="text"
@@ -8,6 +9,7 @@
     :readonly="isReadonly"
     :name="labelName"
   />
+  </div>
 </template>
 
 <script setup>

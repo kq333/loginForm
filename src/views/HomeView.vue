@@ -29,7 +29,7 @@
 </template>
 
 <script setup>
-import ValidationForm from "../components/ValidationForm.vue";
+import ValidationForm from "@/components/ValidationForm.vue";
 import { useStore } from "vuex";
 import { computed, watch } from "vue";
 

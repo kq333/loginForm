@@ -58,7 +58,7 @@ export default createStore({
         ? (state.sendData = new Array({
             tax: state.selectOptionValue,
             nettoPrice: state.inputValueNetto,
-            priceBrutto: getters.getCalculatorBruttoValue,
+            bruttoPrice: getters.getCalculatorBruttoValue,
             text: state.textAreaValue,
           }))
         : (state.sendData = []);

@@ -1,4 +1,5 @@
 <template>
+<div>
   <label :for="radioBtnValue"> {{ radioBtnValue }}</label>
   <input
     class="radio-button"
@@ -8,6 +9,7 @@
     :value="radioBtnValue"
     @change="getValueBtn"
   />
+  </div>
 </template>
 
 <script setup>

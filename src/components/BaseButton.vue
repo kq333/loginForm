@@ -1,5 +1,7 @@
 <template>
-  <button class="universal-btn" :type="`${btnType}`">{{ text }}</button>
+  <div>
+    <button class="universal-btn" :type="`${btnType}`">{{ text }}</button>
+  </div>
 </template>
 
 <script setup>

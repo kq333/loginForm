@@ -1,4 +1,5 @@
 <template>
+<div>
   <label for="Description">Description</label>
   <textarea
     class="text-area"
@@ -10,6 +11,7 @@
     v-model="characterLength"
     @input="inputValue"
   ></textarea>
+  </div>
 </template>
 
 <script setup>

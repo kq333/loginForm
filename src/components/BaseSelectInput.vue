@@ -1,4 +1,5 @@
 <template>
+<div>
   <label for="vat">Vat: </label>
   <select id="vat" class="inputs-form" @change="inputSelectOption">
     <option value="" selected disabled>{{ selectOptionLabel }}</option>
@@ -6,6 +7,7 @@
       {{ item }}
     </option>
   </select>
+  </div>
 </template>
 
 <script setup>

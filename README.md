@@ -20,5 +20,7 @@ npm run build
 npm run lint
 ```
 
+This will automatically open http://localhost:8080
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
